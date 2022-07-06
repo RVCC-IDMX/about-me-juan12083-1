@@ -1,0 +1,30 @@
+body {
+    font-family: Roboto;
+    background-color: #F59D2C;
+    color: #006CA8;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Oswald";
+    font-size: 40pt;
+}
+
+header {
+    text-align: center;
+}
+
+#hero, footer {
+    text-align: center;
+    color: #2CADF5;
+    background-color:#AB7E44 ;
+    padding: 10px;
+    border: 2px solid #006CA8;
+}
+
+#hero img {
+    width: 300px;
+}
+
+#bio {
+    text-align: center;
+}
