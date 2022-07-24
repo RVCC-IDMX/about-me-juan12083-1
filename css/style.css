@@ -6,8 +6,11 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: "Oswald";
-    font-size: 40pt;
+    text-align: center;
 }
+    h1{
+        font-size: 40pt;
+    }
 
 header {
     text-align: center;
@@ -27,4 +30,8 @@ header {
 
 #bio {
     text-align: center;
+}
+
+#hobbies ul li:nth-child(even) {
+    color: black;
 }
