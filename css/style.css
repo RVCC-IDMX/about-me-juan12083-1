@@ -51,6 +51,19 @@ section#hobbies{
     align-items: center;
 }
 
+/* video */
+
+section#video {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#video iframe {
+    max-width: 100%;
+    display: inline;
+}
+
 /* Gallery */
 
 #gallery {
@@ -123,12 +136,12 @@ section#hobbies{
         max-width: 100%;
         columns: 20rem;
     }
+
 }
 
 /* large sreen size */      
 
 @media screen and (min-width: 100em) {
-
     #gallery {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
@@ -146,3 +159,15 @@ section#hobbies{
         display: block;
     }   
 }
+
+/* video tablet size */
+@media screen and (min-width: 20em) {
+
+    video iframe {
+        width: 100%;
+    }
+
+
+}
+
+
