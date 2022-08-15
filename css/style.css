@@ -172,4 +172,8 @@ section#video {
 
 }
 
+/* Contact Form */
 
+#formElements {
+    display:grid;
+}
